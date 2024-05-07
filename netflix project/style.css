@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/images/bg.jpg");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+.main .box{
+    background-color: black;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}   
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Martel Sans", sans-serif;;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 15px;
+    padding:0  30px;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    background-color: rgb(37, 36, 36);
+    height:8px;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(23,23,23,0.3);
+    color:white;
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 9px 16px;
+}
+.btn-red{
+ background-color: red;
+color:white;
+padding: 12px 24px ;
+border-radius: 4px;
+font-size: 20px;
+font-weight: 600;
+}
+.btn-red-sm{
+    background-color: red;
+    color:white;
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.main input{
+    padding:15px 120px 15px 20px ;
+    color: white;
+
+border-radius: 4px;
+font-size: 15px;
+background-color: rgba(23,23,23,0.7);
+border: 1px solid rgba(237, 224, 224, 0.4);
+font-weight: 300;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+
+}
+.secImg{
+    
+    position: relative;
+}
+.secImg img{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    
+   position:absolute;
+   top:51px;
+   right: 0;
+   
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+section.first > div :nth-child(3){
+    font-size: 24px;
+    
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+section.first > div :nth-child(4){
+    font-size: 24px;
+    
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.faqbox{
+    display: flex;
+    background-color: grey;
+    padding: ;
+}
